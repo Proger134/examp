@@ -23,7 +23,13 @@ $(document).ready(function () {
     prevArrow: $('.first-screen-slider-arrow-left'),
     nextArrow: $('.first-screen-slider-arrow-right')
   });
-});
+}); // $(".first-screen-slider__arrows").hover(function() {
+//    $(".first-screen-slider__more").css("transform", "translateX(0)")
+//    $(".first-screen-slider__button").css("display", "none")
+//    $(".first-screen-slider__bottom").css("display", "block")
+//    textsStyle = {display: "block", textAling: "right"}
+//    $(".first-screen-slider__texts").css(textsStyle)
+// });
 "use strict";
 
 var validateForms = function validateForms(selector, rules, successModal, yaGoal) {
