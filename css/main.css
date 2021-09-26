@@ -1390,6 +1390,9 @@
     position: absolute;
     bottom: 20px;
     right: 0; }
+    @media (max-width: 1800px) {
+      .advantages__illustration {
+        display: none; } }
   .advantages__container {
     margin: 0 auto;
     padding: 0 15px;
@@ -1406,6 +1409,12 @@
   .advantages__item {
     width: 400px;
     margin: 0 0 60px 0; }
+    @media (max-width: 1440px) {
+      .advantages__item {
+        width: 50%; } }
+    @media (max-width: 992px) {
+      .advantages__item {
+        width: 100%; } }
   .advantages__caption {
     color: #1F1916;
     font-family: "HeliosCond", arial;
@@ -1425,6 +1434,12 @@
     color: #625C5C;
     line-height: 140%;
     font-size: 20px; }
+    @media (max-width: 1440px) {
+      .advantages__text {
+        max-width: 300px; } }
+    @media (max-width: 992px) {
+      .advantages__text {
+        max-width: 700px; } }
 
 .custom-checkbox__field:checked + .custom-checkbox__content::after {
   opacity: 1; }
