@@ -1,4 +1,19 @@
 "use strict";
+
+// WOW
+new WOW().init();
+"use strict";
+
+// Slider
+$(document).ready(function () {
+  $(".first-screen-slider").slick({
+    arrows: true,
+    dots: false,
+    infinite: false,
+    prevArrow: $('.first-screen-slider-arrow-left'),
+    nextArrow: $('.first-screen-slider-arrow-right')
+  });
+});
 "use strict";
 
 var validateForms = function validateForms(selector, rules, successModal, yaGoal) {
@@ -48,7 +63,7 @@ burger.addEventListener("click", function () {
   this.classList.toggle("active");
   header.classList.toggle("dark");
   menu.classList.toggle("active");
-  document.querySelector("body").classList.toggle("lock");
+  document.querySelector(".body").classList.toggle("lock");
 });
 /**
   * название функции

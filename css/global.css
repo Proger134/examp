@@ -9,21 +9,17 @@
   opacity: 0.4;
   pointer-events: none; }
 
-.custom-checkbox__field:checked + .custom-checkbox__content::after {
-  opacity: 1; }
-
-.custom-checkbox__field:focus + .custom-checkbox__content::before {
-  outline: 2px solid #f00;
-  outline-offset: 2px; }
-
-.custom-checkbox__field:disabled + .custom-checkbox__content {
-  opacity: 0.4;
-  pointer-events: none; }
+@font-face {
+  font-family: "HeliosCond";
+  src: url("../fonts/../resources/fonts/HeliosCond.woff.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
-  font-family: "LucidaSansUnicode";
-  src: url("../fonts/../resources/fonts/Lucida Sans Unicode Regular.ttf.woff2") format("woff2");
-  font-weight: 400;
+  font-family: "HeliosCond";
+  src: url("../fonts/../resources/fonts/HeliosCond-Bold.woff.woff2") format("woff2");
+  font-weight: 700;
   font-display: swap;
   font-style: normal; }
 
@@ -118,5 +114,28 @@ ul {
     .logo {
       width: 70px;
       height: 50px; } }
+
+.red-button {
+  background-color: #EA0000;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s all ease 0s;
+  font-family: "HeliosCond", arial;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 60px;
+  font-size: 20px; }
+  .red-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(235, 0, 0, 0.2); }
+  @media (max-width: 768px) {
+    .red-button {
+      height: 50px;
+      font-size: 15px; } }
+
+.body.lock {
+  overflow: hidden; }
 
 /*# sourceMappingURL=global.css.map */
