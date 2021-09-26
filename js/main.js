@@ -6,6 +6,16 @@ new WOW().init();
 
 // Slider
 $(document).ready(function () {
+  $(".comments-slider").slick({
+    arrows: true,
+    dots: true,
+    infinite: false
+  });
+});
+"use strict";
+
+// Slider
+$(document).ready(function () {
   $(".first-screen-slider").slick({
     arrows: true,
     dots: false,
