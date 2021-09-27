@@ -106,7 +106,8 @@
     transition: .3s all ease 0s;
     font-weight: 400;
     padding-bottom: 4px;
-    border-bottom: 5px solid transparent; }
+    border-bottom: 5px solid transparent;
+    border-radius: 3px; }
     .header__item:hover {
       border-bottom: 5px solid #fff; }
     @media (max-width: 1440px) {
