@@ -94,6 +94,28 @@ burger.addEventListener("click", function () {
   menu.classList.toggle("active");
   document.querySelector(".body").classList.toggle("lock");
 });
+"use strict";
+
+// Slider
+$(document).ready(function () {
+  $(".trust-slider").slick({
+    arrows: false,
+    dots: false,
+    infinite: false,
+    autoplay: true,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    pauseOnFocus: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
+  });
+});
 /**
   * название функции
   *

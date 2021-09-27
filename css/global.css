@@ -11,15 +11,22 @@
 
 @font-face {
   font-family: "HeliosCond";
-  src: url("../fonts/../resources/fonts/HeliosCond.woff.woff2") format("woff2");
+  src: url("../fonts/../fonts/HeliosC.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "HeliosCond";
-  src: url("../fonts/../resources/fonts/HeliosCond-Bold.woff.woff2") format("woff2");
+  src: url("../fonts/../fonts/HeliosC-Bold.woff2") format("woff2");
   font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "LucidaSans";
+  src: url("../fonts/../fonts/lucida-sans-unicode.woff2") format("woff2");
+  font-weight: 400;
   font-display: swap;
   font-style: normal; }
 
@@ -123,7 +130,6 @@ ul {
   transition: .3s all ease 0s;
   font-family: "HeliosCond", arial;
   text-align: center;
-  letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 700;
   height: 60px;

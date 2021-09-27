@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="css/main.css">
 
   
-  <link href="https://www.dafontfree.net/embed/bHVjaWRhLXNhbnMtdW5pY29kZS1yZWd1bGFyJmRhdGEvMjYvbC8xMzMzMDEvTFNBTlNVTkkudHRm" rel="stylesheet" type="text/css"/>
-  <link href="//db.onlinewebfonts.com/c/51e08ce3676fedcbd3f9f5d932de89b2?family=Helios-Cond-Black" rel="stylesheet" type="text/css"/></head>
+ 
+  
 
 <body class="body">
 
@@ -51,6 +51,7 @@
         </div>
         <div class="header__number phone-number">
           <img src="img/common/phone-bg.png" alt="background" class="phone-number__background">
+          <img src="img/common/phone-bg-red.png" alt="background" class="phone-number__backgroundhide">
           <a href="tel:8 800 343 23 23" class="phone-number__content">
             <img src="img/phone.svg" alt="phoneico" class="phone-number__ico">
             <div class="phone-number__text">8 800 343 23 23</div>
@@ -222,7 +223,7 @@
                     </div>
                 </div>
                 <div class="consulting__video">
-                    <img src="img/consulting/video.png" alt="">
+                    <video controls="controls" src="video/video.mp4"></video>
                 </div>
             </div>
         </div>
@@ -231,10 +232,6 @@
       <div class="comments">
      <img src="img/common/illustration.png" alt="illustration" class="comments__illustration">
      <div class="comments__container">
-        <div class="circle">
-            <img class="circle__lines" src="img/comments/lines-circle.png" alt="circle">
-            <img class="circle__red" src="img/comments/red-circle.png" alt="circle">
-        </div>
          <div class="comments__body">
              <div class="comments__left">
                 <img src="img/comments/image.png" alt="image" class="comments__image">
@@ -276,7 +273,11 @@
                 <div class="projects__title">наши проекты </div>
                 <div class="projects__subtitle">Purus, accumsan rhoncus, in nisi, nunc.</div>
             </div>
-            <div class="projects__content">
+
+            
+            <!-- <div class="projects__content">
+
+
                 <div class="projects__row">
                     <div class="projects__item projects__item_wide">
                         <img src="img/projects/photo1.png" alt="background" class="projects__backgroundimage">
@@ -317,7 +318,50 @@
                         <button class="btn-reset projects__button red-button">посмотреть проект</button>
                     </div>
                 </div>
+            </div> -->
+
+
+            <div class="projects__content">
+                
+                    <div class="projects__item  wow slideInLeft">
+                        <img src="img/projects/photo1.png" alt="background" class="projects__backgroundimage">
+                        <div class="projects__caption ">название проекта</div>
+                        <div class="projects__text ">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button  red-button">посмотреть проект</button>
+                    </div>
+                    <div class="projects__item wow slideInLeft" data-wow-delay="2s">
+                        <img src="img/projects/photo2.png" alt="background" class="projects__backgroundimage" >
+                        <div class="projects__caption">название проекта</div>
+                        <div class="projects__text">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button red-button">посмотреть проект</button>
+                    </div>
+                    <div class="projects__item wow slideInLeft"  data-wow-delay="4s">
+                        <img src="img/projects/photo3.png" alt="background" class="projects__backgroundimage">
+                        <div class="projects__caption">название проекта</div>
+                        <div class="projects__text">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button red-button">посмотреть проект</button>
+                    </div>
+                    <div class="projects__item wow slideInLeft" data-wow-delay="4s">
+                        <img src="img/projects/photo4.png" alt="background" class="projects__backgroundimage" >
+                        <div class="projects__caption">название проекта</div>
+                        <div class="projects__text">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button red-button">посмотреть проект</button>
+                    </div>
+                    <div class="projects__item wow slideInLeft ">
+                        <img src="img/projects/photo5.png" alt="background" class="projects__backgroundimage" >
+                        <div class="projects__caption">название проекта</div>
+                        <div class="projects__text">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button  red-button">посмотреть проект</button>
+                    </div>
+                    <div class="projects__item wow slideInLeft" data-wow-delay="2s" >
+                        <img src="img/projects/photo6.png" alt="background" class="projects__backgroundimage " >
+                        <div class="projects__caption">название проекта</div>
+                        <div class="projects__text">Nec sed penatibus pharetra, turpis mattis blandit tortor vitae. Ac cras ut non facilisi.</div>
+                        <button class="btn-reset projects__button red-button">посмотреть проект</button>
+                    </div>
+               
             </div>
+
         </div>
     </div>
 </div>
@@ -387,10 +431,12 @@
         <div class="footer__contacts">
           <div class="footer__consultation">
             <a href="#" class="footer__consultationtext">Получить консультацию</a>
+            <img src="img/footer/consultation-bg-grey.png" alt="background" class="footer__consultationbghide">
             <img src="img/footer/consultation-bg.png" alt="background" class="footer__consultationbg">
           </div>
           <div class="footer__number phone-number">
             <img src="img/common/phone-bg.png" alt="background" class="phone-number__background">
+            <img src="img/common/phone-bg-red.png" alt="background" class="phone-number__backgroundhide">
             <a href="tel:8 800 343 23 23" class="phone-number__content">
               <img src="img/phone.svg" alt="phoneico" class="phone-number__ico">
               <div class="phone-number__text">8 800 343 23 23</div>
