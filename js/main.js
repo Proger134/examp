@@ -25,24 +25,22 @@ $(document).ready(function () {
   });
 }); // Bottom hover
 
-if (window.innerWidth > 480) {
-  $(".first-screen-slider__bottom").hover(function () {
-    var leftCss = {
-      transform: "translateX(-500%)"
-    };
-    var rightCss = {
-      transform: "translateX(500%)"
-    };
-    $(".first-screen-slider-arrow-left").css(leftCss);
-    $(".first-screen-slider-arrow-right").css(rightCss);
-  }, function () {
-    var UnCss = {
-      transform: "translateX(0)"
-    };
-    $(".first-screen-slider-arrow-left").css(UnCss);
-    $(".first-screen-slider-arrow-right").css(UnCss);
-  });
-}
+$(".first-screen-slider__bottom").hover(function () {
+  var leftCss = {
+    transform: "translateX(-500%)"
+  };
+  var rightCss = {
+    transform: "translateX(500%)"
+  };
+  $(".first-screen-slider-arrow-left").css(leftCss);
+  $(".first-screen-slider-arrow-right").css(rightCss);
+}, function () {
+  var UnCss = {
+    transform: "translateX(0)"
+  };
+  $(".first-screen-slider-arrow-left").css(UnCss);
+  $(".first-screen-slider-arrow-right").css(UnCss);
+});
 "use strict";
 
 var validateForms = function validateForms(selector, rules, successModal, yaGoal) {
