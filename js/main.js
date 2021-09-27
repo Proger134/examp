@@ -101,12 +101,12 @@ $(document).ready(function () {
   $(".trust-slider").slick({
     arrows: false,
     dots: false,
-    infinite: false,
+    infinite: true,
     autoplay: true,
     slidesToShow: 5,
     slidesToScroll: 2,
-    autoplaySpeed: 3000,
-    speed: 1000,
+    autoplaySpeed: 0,
+    speed: 5000,
     pauseOnFocus: true,
     responsive: [{
       breakpoint: 768,
